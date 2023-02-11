@@ -5,4 +5,15 @@
 
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+#mainTestimonialCont,
+#testimonialCont {
+	scroll-behavior: smooth;
+	scrollbar-width: none;
+}
+
+#mainTestimonialCont::-webkit-scrollbar {
+	display: none;
 }
