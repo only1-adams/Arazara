@@ -1310,6 +1310,10 @@ html {
     row-gap: 0px;
   }
 
+  .md\:overflow-hidden{
+    overflow: hidden;
+  }
+
   .md\:px-\[2rem\]{
     padding-left: 2rem;
     padding-right: 2rem;
